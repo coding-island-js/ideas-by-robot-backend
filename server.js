@@ -12,8 +12,8 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5500",
-    // origin: "https://ideasbyrobot.netlify.app",
+   // origin: "http://localhost:5500",
+     origin: "https://ideasbyrobot.netlify.app",
   })
 );
 
