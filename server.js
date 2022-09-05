@@ -12,20 +12,13 @@ app.use(express.json());
 
 app.use(
   cors({
-    //origin: "http://127.0.0.1:5500",
+    origin: "http://localhost:5500",
     // origin: "https://ideasbyrobot.netlify.app",
-    origin: "*",
-    //credentials: true,
   })
 );
 
 app.use(router);
 
-var path = require("path");
-
-app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "index2.html"));
-});
 
 // start server
 

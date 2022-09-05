@@ -1,0 +1,30 @@
+{
+  "name": "ideas-by-robot-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devTest": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-island-js/ideas-by-robot-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding-island-js/ideas-by-robot-backend/issues"
+  },
+  "homepage": "https://github.com/coding-island-js/ideas-by-robot-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "got": "^11.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
