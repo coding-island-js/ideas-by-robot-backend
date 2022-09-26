@@ -20,7 +20,7 @@ The webpage has one button that makes a fetch request for a one-sentence movie p
 
 I built an express nodeJS server for the back-end. I used GOT for my HTTP request library.
 
-I send some sample prompts to the GPT-3 API so the AI knows what I am asking for and expecting in return. 
+I send a few sample prompts to the GPT-3 API so the AI knows what I am asking for and expecting in return. 
 
 In this case, I want the AI to send me a one-sentence science fiction movie plot.
 
